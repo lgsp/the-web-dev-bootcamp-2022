@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Demo</title>
+</head>
+<body>
+    <h1>Forms Demo</h1>
+
+    <h2>
+        <a 
+        href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input" 
+        target="_blank">MDN input types</a>
+    </h2>
+    
+    <form action="/tacos">
+        <label for="btn">Click the button on the right:</label>
+        <input id="btn" type="button">
+        <br> <br>
+
+        <label for="cb">Check the box: </label>
+        <input id="cb" type="checkbox">
+        <br> <br>
+
+        <label for="cr">Choose your color: </label>
+        <input id="cr" type="color">
+        <br> <br>
+
+        <label for="dt">Select your date: </label>
+        <input id="dt" type="date">
+        <br> <br>
+
+        <label for="loc-dt"></label>
+        <input id="loc=-dt" type="datetime-local">
+        <br> <br>
+
+        <label for="em">Enter your email: </label>
+        <input id="em" type="email">
+        <br> <br>
+
+        <input type="file">
+        <br> <br>
+
+        <input type="hidden">
+        <br> <br>
+
+        <input type="image">
+        <br> <br>
+
+        <input type="month">
+        <br> <br>
+
+        <input type="number">
+        <br> <br>
+
+        <label for="pw">Enter your password: </label>
+        <input id="pw" type="password" placeholder="password" name="password">
+        <br> <br>
+
+        <input type="radio">
+        <br> <br>
+
+        <label for="name">Enter your name: </label>
+        <input id="name" type="text" placeholder="name" name="username">
+        <br> <br>
+
+        <button type="button">Do Not Submit</button>
+        <button type="submit">Submit</button>
+    </form>
+
+    <button>Not Inside Form</button>
+    <!-- https://www.reddit.com/search -->
+    
+    <h2>Work Form Link To Google Form</h2>
+    <form action="https://forms.gle/LZr1VxQ3WvJHv37A9" target="_blank">
+        <!-- <input type="text" name="query"> -->
+        <button>Contact Me If You Want To Build A Website</button>
+    </form>
+    
+    <h2>Search On Google</h2>
+
+    <form action="https://www.google.com/search" target="_blank">
+        <input type="text" name="q">
+        <button>Search On Google</button>
+    </form>
+
+    <h2>Search On YouTube</h2>
+
+    <form action="https://www.youtube.com/search" target="_blank">
+        <input type="text" name="q">
+        <button>Search On YouTube</button>
+    </form>
+
+    <h2>Search Your Crypto CoinGecko</h2>
+
+    <form action="https://www.coingecko.com" target="_blank">
+        <input type="text" name="coins">
+        <button>Search Your Crypto On CoinGecko</button>
+    </form>
+
+    <h2>Search Your Crypto CoinMarketCap</h2>
+    <form action="https://coinmarketcap.com/currencies/search" target="_blank">
+        <input type="text" name="q">
+        <button>Search Your Crypto On CoinMarketCap</button>
+    </form>
+
+    
+    <h2>Do Your PRE-Search And Earn Crypto</h2>
+    <form action="https://presearch.io/" target="_blank">
+        <input type="text" name="q">
+        <button>PRE-Search And <strong>EARN</strong>  Crypto</button>
+    </form>
+
+    <h2>More Inputs</h2>
+
+    <p>
+        <label for="requests">Any Special Requests?</label>
+        <br>
+        <textarea name="Requests?" id="requests" cols="40" rows="10"></textarea>
+    </p>
+    <button>Submit</button>
+
+    <h2>Validation Demo</h2>
+    <form action="/dummy">
+        <label for="first">Enter First Name</label>
+        <input type="text" name="first" id="first" required>
+        <p>
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" minlength="5" maxlength="20" required>
+        </p>
+
+        <p>
+            <label for="emqil">e-mail</label>
+            <input type="email" id="email" required>
+        </p>
+
+        <p>
+            <label for="url">URL</label>
+            <input type="url" id="url">
+        </p>
+        
+        <button>Submit</button>
+    </form>
+
+</body>
+</html>
