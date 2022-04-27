@@ -60,3 +60,19 @@ section:nth-of-type(2) h1:nth-of-type(4) {
 section:nth-of-type(2) {
     transform: scale(0.7) translateX(500px);
 }
+
+img {
+    height: 30%;
+    width: 30%;
+    margin: calc(10%/6);
+}
+
+nav {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    border-bottom: 2px solid #f1f1f1;
+    width: 30%; 
+    margin-left: calc(10%/6);
+    padding: 1.2em 0;
+}
